@@ -1,11 +1,12 @@
 {
-  "name": "redbox-react",
-  "description": "A redbox (rsod) component to display your errors.",
+  "version": "0.0.1",
+  "name": "react-whitebox",
+  "description": "A component to display your errors.",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist lib tmp",
-    "build:umd": "webpack src/index.js dist/redbox.js",
-    "build:umd:min": "webpack --config webpack.config.prod.js src/index.js dist/redbox.min.js",
+    "build:umd": "webpack src/index.js dist/whitebox.js",
+    "build:umd:min": "webpack --config webpack.config.prod.js src/index.js dist/whitebox.min.js",
     "build:lib": "babel src --out-dir lib",
     "build": "npm run build:umd && npm run build:umd:min && npm run build:lib",
     "lint": "standard ./src",
@@ -15,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KeywordBrain/redbox-react.git"
+    "url": "git+https://github.com/amannn/react-whitebox"
   },
-  "author": "David Pfahler <david@keywordbrain.com>",
+  "author": "Jan Amann <jan@amann.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KeywordBrain/redbox-react/issues"
+    "url": "https://github.com/amannn/react-whitebox/issues"
   },
-  "homepage": "https://github.com/KeywordBrain/redbox-react",
+  "homepage": "https://github.com/amannn/react-whitebox",
   "keywords": [
-    "redbox",
+    "react-whitebox",
     "rsod",
     "react",
     "react-native"

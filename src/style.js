@@ -9,8 +9,8 @@ export default {
     bottom: 0,
     right: 0,
     width: '100%',
-    background: 'rgb(204, 0, 0)',
-    color: 'white',
+    background: 'white',
+    color: '#20202F',
     zIndex: 9999,
     textAlign: 'left',
     fontSize: '16px',
@@ -28,10 +28,10 @@ export default {
   },
   file: {
     fontSize: '0.8em',
-    color: 'rgba(255, 255, 255, 0.7)'
+    color: '#A5A5A5'
   },
   linkToFile: {
     textDecoration: 'none',
-    color: 'rgba(255, 255, 255, 0.7)'
+    color: '#A5A5A5'
   }
 };
