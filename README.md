@@ -4,7 +4,7 @@ This component will render errors in your app in a white box.
 
 This is a fork of [redbox-react](https://github.com/KeywordBrain/redbox-react). All credit goes to David Pfahler for implementing the component. I just couldn't take the red flash anymore and therefore changed some styles of the component.
 
-<img src="http://i.imgur.com/9Jhlibk.png" alt="example" width="700" />
+<img src="http://i.imgur.com/MOCC8TB.png" alt="example" width="700" />
 
 ## Usage
 Catch an error and give it to `react-whitebox`. Works with
